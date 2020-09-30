@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (compi44.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Parser.c
+c:\users\roy\desktop\compi44\compi44\symboltable.h(44): error C2020: 'type': 'struct' member redefinition
+  SymbolTable.c
+c:\users\roy\desktop\compi44\compi44\symboltable.h(44): error C2020: 'type': 'struct' member redefinition
+c:\users\roy\desktop\compi44\compi44\symboltable.c(91): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  win.lex.yy.c
+flex.lex(84): warning C4101: 'kind': unreferenced local variable
+  Generating Code...

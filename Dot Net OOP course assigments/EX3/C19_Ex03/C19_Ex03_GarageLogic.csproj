@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C34196B0-E5D4-4B76-AB68-87BD4E81E9FB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>C19_Ex03_GarageLogic</RootNamespace>
+    <AssemblyName>C19_Ex03</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ArgumentEmptyException.cs" />
+    <Compile Include="ArgumentInfinityException.cs" />
+    <Compile Include="ArgumentIsNotPositiveNumberException.cs" />
+    <Compile Include="ArgumentNaNException.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="CarThatOperatesOnFuel.cs" />
+    <Compile Include="eComparisonOperator.cs" />
+    <Compile Include="ElectricVehicle.eChargeStatus.cs" />
+    <Compile Include="Car.eColor.cs" />
+    <Compile Include="ElectricCar.cs" />
+    <Compile Include="ElectricMotorcycle.cs" />
+    <Compile Include="ElectricTruck.cs" />
+    <Compile Include="ElectricVehicle.Information.cs" />
+    <Compile Include="Enum.cs" />
+    <Compile Include="Vehicle.eAbstractVehicle.cs" />
+    <Compile Include="Garage.eServiceParameter.cs" />
+    <Compile Include="Garage.eStatusOfVehicleFilter.cs" />
+    <Compile Include="IEnumerableTo.cs" />
+    <Compile Include="Parse.cs" />
+    <Compile Include="VehicleThatOperatesOnFuel.eTypeOfFuel.cs" />
+    <Compile Include="Garage.eOperatesOn.cs" />
+    <Compile Include="Garage.eChargeStatus.cs" />
+    <Compile Include="Garage.eRefuelStatus.cs" />
+    <Compile Include="Garage.eService.cs" />
+    <Compile Include="Vehicle.eVehicle.cs" />
+    <Compile Include="UnreachableCodeReachedException.cs" />
+    <Compile Include="Wheel.eInflateStatus.cs" />
+    <Compile Include="ElectricVehicle.cs" />
+    <Compile Include="Motorcycle.eTypeOfLicense.cs" />
+    <Compile Include="TheGarageDoesNotOwnAVehicleWithThisLicenseNumberException.cs" />
+    <Compile Include="TheReferredVehicleByLicenseNumberDoesNotOperateOnFuelException.cs" />
+    <Compile Include="TheReferredVehicleByLicenseNumberIsNotElectricException.cs" />
+    <Compile Include="VehicleThatOperatesOnFuel.eRefuelStatus.cs" />
+    <Compile Include="Garage.eStatusOfVehicle.cs" />
+    <Compile Include="Garage.cs" />
+    <Compile Include="Motorcycle.Information.cs" />
+    <Compile Include="Car.Information.cs" />
+    <Compile Include="Truck.Information.cs" />
+    <Compile Include="VehicleThatOperatesOnFuel.Information.cs" />
+    <Compile Include="Garage.Vehicle.Information.cs" />
+    <Compile Include="Motorcycle.cs" />
+    <Compile Include="MotorcycleThatOperatesOnFuel.cs" />
+    <Compile Include="TimeUnitConverter.cs" />
+    <Compile Include="Truck.cs" />
+    <Compile Include="ValueOutOfRangeException.cs" />
+    <Compile Include="Vehicle.Information.cs" />
+    <Compile Include="Garage.Vehicle.cs" />
+    <Compile Include="VehicleThatOperatesOnFuel.cs" />
+    <Compile Include="TruckThatOperatesOnFuel.cs" />
+    <Compile Include="Vehicle.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Wheel.cs" />
+    <Compile Include="Wheel.Information.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

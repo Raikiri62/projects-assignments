@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{73514765-A159-43C2-9B9B-B9544E8AA214}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>C19_Ex05_WindowsUI</RootNamespace>
+    <AssemblyName>C19 Ex05 Erez 205947062 Roy 313175192</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BoardClosing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoardClosing.Designer.cs">
+      <DependentUpon>BoardClosing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ColorPicker.eColor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorPicker.Designer.cs">
+      <DependentUpon>ColorPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Board.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Board.Designer.cs">
+      <DependentUpon>Board.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumberOfChances.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumberOfChances.Designer.cs">
+      <DependentUpon>NumberOfChances.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PinResult.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PinResult.Designer.cs">
+      <DependentUpon>PinResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BoardClosing.resx">
+      <DependentUpon>BoardClosing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorPicker.resx">
+      <DependentUpon>ColorPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Board.resx">
+      <DependentUpon>Board.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumberOfChances.resx">
+      <DependentUpon>NumberOfChances.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PinResult.resx">
+      <DependentUpon>PinResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Algorithm\Algorithm.csproj">
+      <Project>{579BA767-94FE-409C-B7BE-C910321F3082}</Project>
+      <Name>Algorithm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C19_Ex02_BoolPgia\C19_Ex02_BoolPgia.csproj">
+      <Project>{85EE90ED-242D-419F-95BF-45E0F13EA1DE}</Project>
+      <Name>C19_Ex02_BoolPgia</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enumerable\Enumerable.csproj">
+      <Project>{033D1A15-5557-4E82-8139-656E843376EC}</Project>
+      <Name>Enumerable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Exceptions\Exceptions.csproj">
+      <Project>{BDA22778-BCE6-4234-A3FD-793C02F229E9}</Project>
+      <Name>Exceptions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
