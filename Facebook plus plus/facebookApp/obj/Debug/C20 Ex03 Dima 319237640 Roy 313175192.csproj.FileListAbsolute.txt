@@ -1,0 +1,18 @@
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\obj\Debug\C20 Ex03 Dima 319237640 Roy 313175192.csprojAssemblyReference.cache
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\obj\Debug\facebookApp.FriendForm.resources
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\obj\Debug\facebookApp.LoginForm.resources
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\obj\Debug\facebookApp.MainForm.resources
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\obj\Debug\facebookApp.MatchingForm.resources
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\obj\Debug\facebookApp.PostForm.resources
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\obj\Debug\facebookApp.Properties.Resources.resources
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\obj\Debug\facebookApp.UserEventsForm.resources
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\obj\Debug\C20 Ex03 Dima 319237640 Roy 313175192.csproj.GenerateResource.cache
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\obj\Debug\C20 Ex03 Dima 319237640 Roy 313175192.csproj.CoreCompileInputs.cache
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\bin\Debug\facebookApp.exe.config
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\bin\Debug\facebookApp.exe
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\bin\Debug\facebookApp.pdb
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\bin\Debug\Facebook.dll
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\bin\Debug\FbGraphApiWrapper.dll
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\obj\Debug\C20 Ex03 Dima 319237640 Roy 313175192.csproj.CopyComplete
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\obj\Debug\facebookApp.exe
+C:\Users\Roy\Desktop\3 סופי סופי\C20 Ex03 DimaVorobyov 319237640 RoyYitzchak 313175192\facebookApp\obj\Debug\facebookApp.pdb
